@@ -1,0 +1,44 @@
+@import url('./font.css');
+@import url('./imports.css');
+@import url('./normalize.css');
+@import url('./variables.css');
+
+/* LISTAS */
+
+.lista{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section-sitio-seguro{
+
+}
+
+.section-sitio-seguro .encabezado-container{
+
+}
+
+.section-sitio-seguro .encabezado-container .img-container{
+
+}
+
+.section-sitio-seguro .encabezado-container .text-encabezado-container{
+
+}
+
+.section-sitio-seguro  .encabezado-container .text-encabezado-container .lista{
+
+}
+.section-sitio-seguro .encabezado-container .text-encabezado-container .lista .text-secondary{
+
+}
+
+.section-sitio-seguro .cards-container{
+
+}
+
+.section-sitio-seguro .cards-container .cards{
+
+}
+
