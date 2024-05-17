@@ -5,40 +5,101 @@
 
 /* LISTAS */
 
-.lista{
+.list{
     display: flex;
     flex-direction: column;
-
+    gap: 20px;
 }
 
-.section-sitio-seguro{
+.list li{
+display: flex;
+    line-height: -20px;
+}
 
+.bg-primary{
+background-color: var(--primary-color);
+}
+
+.bg-primary-bold{
+background-color: var(--primary-color-bold);
+}
+/* Secciones */
+
+/* Seccion sitio seguro*/
+
+/* primer parte */
+
+.section-sitio-seguro{
+padding: 5px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
 }
 
 .section-sitio-seguro .encabezado-container{
-
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 100%; 
+    max-width: 540px;
+    gap: 20px;
+}
+.section-sitio-seguro .encabezado-container .text-encabezado-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    gap: 10px;
 }
 
 .section-sitio-seguro .encabezado-container .img-container{
-
+    width: 100%;
+    margin-top: 20px;
 }
 
-.section-sitio-seguro .encabezado-container .text-encabezado-container{
-
+.section-sitio-seguro .encabezado-container .img-container img{
+width: 100%;
 }
 
-.section-sitio-seguro  .encabezado-container .text-encabezado-container .lista{
-
+r
+.section-sitio-seguro .encabezado-container .cards-container{
+gap: 10px;
 }
-.section-sitio-seguro .encabezado-container .text-encabezado-container .lista .text-secondary{
 
-}
+
+/* cards sitio seguro */
 
 .section-sitio-seguro .cards-container{
-
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    max-width: 540px;
+    gap: 40px;
+    padding: 10px;
 }
 
-.section-sitio-seguro .cards-container .cards{
-
+.section-sitio-seguro .cards-container .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 4px;
+    padding: 30px;
 }
 
+.section-sitio-seguro .cards-container .card p{
+line-height: 25px
+}
+
+.section-sitio-seguro .cards-container img{
+    width: 100%;
+}
+
+
+.section-sitio-seguro .cards-container a{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: white;
+}
