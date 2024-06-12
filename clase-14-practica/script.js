@@ -44,3 +44,20 @@ Dependiendo de la cantidad de alumnos de la clase van a solicitar a cada uno el 
     -carla 
     -julieta 
      */
+
+
+
+let lista = ('lista alumnos: ')
+
+let personas = prompt('ingrese la cantidad de personas en la clase')
+while(!personas || isNaN(personas)){
+    personas = prompt('ERROR: INGRESE UN NUMERO')
+}
+personas = Number(personas)
+
+for (let i = 1; i <= personas; i = i + 1){
+let nombre = prompt ('ingrese el nombre de cada persona')
+lista = lista + '\n-' + nombre
+}
+
+alert (lista)
