@@ -174,8 +174,11 @@ function verificador_de_complejidad(textoAVerificar){
 }
 
 let Texto1 = "hola%20como%20estas,%20todo%bien?"
+console .log('El codigo descifrado es:' +)????????????
 
  */
+
+
 /* 5
 solicitar al usuario un mensaje, y cifrarlo con %20 en los espacios. Una vez cifrado decifrarlo
 con el algoritmo anterior.
@@ -209,15 +212,3 @@ while (palabra == " " || palabra == null){
  */
 
 
-const palabra = prompt("Introduce una palabra:");
-
-for (let i = 0; i < palabra.length; i++) {
-  if (palabra[i] === palabra[i].toUpperCase()) {
-    console.log("Tiene mayúscula");
-    break;
-  }
-}
-
-if (!palabra.match(/[A-Z]/)) {
-  console.log("Tiene minúscula");
-}
