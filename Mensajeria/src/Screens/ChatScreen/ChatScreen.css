@@ -1,0 +1,13 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body{
+    background-color: #F7C3E3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
