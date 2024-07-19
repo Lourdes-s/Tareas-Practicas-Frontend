@@ -4,7 +4,7 @@ import { ChatScreen } from './Screens'
 
 function App() {
     return (
-        <div>
+        <div className='celular'>
             <ChatScreen/>
         </div>
     )

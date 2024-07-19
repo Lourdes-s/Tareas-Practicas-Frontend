@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+
 body{
     background-color: #F7C3E3;
     display: flex;
@@ -11,3 +12,17 @@ body{
     align-items: center;
     margin: 20px;
 }
+
+.celular{
+    height: 782px;
+    width: 390px;
+    background-image: url(/src/assets/Imagenes/mockup.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    overflow: hidden;
+    justify-content: space-between;
+    padding: 15px 10px;
+} 

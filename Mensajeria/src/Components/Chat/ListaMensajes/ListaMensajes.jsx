@@ -4,9 +4,9 @@ import { Mensaje } from '../Mensaje/Mensaje'
 
 export const ListaMensajes = ({ mensajesChat }) => {
     return (
-            < >
+            <div className='containerLista'>
                 {mensajesChat.map((mensajeInfo2, index) => <Mensaje mensajeInfo={mensajeInfo2} key={'mensaje' + index}/>)}
-            </>
+            </div>
 )
 }
 

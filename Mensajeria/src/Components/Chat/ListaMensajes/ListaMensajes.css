@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Inter", sans-serif;
+}
+
+.containerLista{
+    margin: 30px 24px; 
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items:s ;
+    justify-content: center;
+    height: 70%;
+    overflow-y: scroll;
+    gap: 15px;
+}
+
+.containerLista::-webkit-scrollbar {
+    width: 8px; 
+}
+
+.containerLista::-webkit-scrollbar-thumb {
+    background-color:#dd97b870; 
+    border-radius: 4px; 
+}
+

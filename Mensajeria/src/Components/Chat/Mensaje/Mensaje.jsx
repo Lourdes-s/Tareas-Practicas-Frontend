@@ -4,18 +4,19 @@ import './Mensaje.css'
 export const Mensaje = ({ mensajeInfo }) => {
     const { author, text, estado, day, hour } = mensajeInfo
     return (
-        <div className='container'>
-            <div className='author'>
-                <span>{author}</span>
-            </div>
-            <div className='text'>
-                <p>{text}</p>
-            </div>
-            <div className='info'>
-                <span>{estado}</span>
-                <span>{day}</span>
-                <span>{hour}</span>
-            </div>
-        </div>
+        <div className='container-chats'>
+            <div className='container'>
+                    <span className='author'>{author}</span>
+                    <p className='text'>{text}</p>
+                <div className='info'>
+                    <span className='dia-hora'>{day} {hour}</span>
+                    <span className='estado'>{estado}</span>
+                </div>
+            </div> 
+        </div> 
     )
 }
+
+
+
+
