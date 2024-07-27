@@ -1,0 +1,68 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+*{ 
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.header{
+    background-color:#f1b2d7;
+    box-shadow: 3px 3px 10px 3px #7776773f;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 5px 10px 5px;
+/*     padding: 10px; */
+    width: 75%;
+    height: 100%;
+}
+
+.profile-picture{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.name{
+    font-size: 15px;
+    font-weight: bold;
+    color: #464646;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: 40%;
+}
+
+.header-buttons{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100%;
+    padding: 10px 5px;
+    gap: 8px;
+    overflow: hidden;
+    width: 25%;
+}
+
+.header-buttons .button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    width: 100%;
+    color: #464646;
+}
+

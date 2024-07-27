@@ -1,0 +1,46 @@
+*{ 
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.container-chats{
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: column;
+    gap: 20px;
+    width: 90%;
+    height: 85%;
+    margin: 5%;
+}
+
+.container{
+    padding: 5px;
+    max-width: 100% ;
+    height: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    background-color: rgba(245, 245, 245, 0.253);
+    box-shadow: 0 0 3px 1px #b6b6b631;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    overflow-y: hidden;
+} 
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.timeSince{
+font-size: 10px;
+}
