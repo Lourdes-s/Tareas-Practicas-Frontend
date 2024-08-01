@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.contacts-container{
+    height: 90%;
+    margin: 5px; 
+    padding: 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    gap: 15px;
+    background-color: #f5deeb;
+}
+
+.contacts-container::-webkit-scrollbar {
+    width: 8px; 
+}
+
+.contacts-container::-webkit-scrollbar-track {
+    background: #f8d1eb; 
+    border-radius: 4px; 
+}
+
+.contacts-container::-webkit-scrollbar-thumb {
+    background-color:#f8c4e2; 
+    border-radius: 4px; 
+}
+
+.contacts-container::-webkit-scrollbar-thumb:hover {
+    background: #f7a7d5;
+}
+
+.contact-list{
+    background-color: #f5bddd;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    height: 20%; 
+}
+
+.contact-list:hover {
+    background-color: #ffdded;
+}
+
+.profile-pic-contacts{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 16px;
+}
+
+.text-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.contact-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: rgb(90, 90, 90);
+    flex-basis: 100%;
+}
+
+.contact-mensaje-text {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: rgb(90, 90, 90);
+    flex-basis: 100%;
+}
+
+.contact-time {
+    font-size: 12px; 
+    display: flex;
+    text-align: right; 
+    margin-left: auto;
+    color: rgb(90, 90, 90);
+}
