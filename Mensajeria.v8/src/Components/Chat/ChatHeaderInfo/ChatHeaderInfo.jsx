@@ -1,6 +1,5 @@
 import React from 'react'
 import './headerInfo.css'
-import pepe from '../assets/pepe.jpg'
 import { Link } from 'react-router-dom'
 
 

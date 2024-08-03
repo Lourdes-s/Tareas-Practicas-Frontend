@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.contacts-container {
+    height: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    gap: 10px;
+    background-color: #f7d5e9;
+}
+
+.contacts-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.contacts-container::-webkit-scrollbar-track {
+    background: #f8d1eb;
+    border-radius: 4px;
+}
+
+.contacts-container::-webkit-scrollbar-thumb {
+    background-color: #f8c4e2;
+    border-radius: 4px;
+}
+
+.contacts-container::-webkit-scrollbar-thumb:hover {
+    background: #f7a7d5;
+}
+
+.contact-list {
+    background-color: #f5bddd;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    height: 18%;
+}
+
+.contact-list:hover {
+    background-color: #ffdded;
+}
+
+.profile-pic-contacts {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    margin-right: 16px;
+}
+
+.text-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.contact-name {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: rgb(90, 90, 90);
+    flex-basis: 100%;
+}
+
+.contact-mensaje-text {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: rgb(90, 90, 90);
+    flex-basis: 100%;
+    word-break: break-word;
+}
+
+.contact-time {
+    font-size: 12px;
+    display: flex;
+    text-align: right;
+    margin-left: auto;
+    color: rgb(90, 90, 90);
+}
+
+.contact-estado {
+    font-size: 12px;
+    display: flex;
+    text-align: right;
+    margin-left: auto;
+    color: rgb(90, 90, 90);
+}
+
+/* Media query for 768px */
+@media (min-width: 768px) {
+    .contacts-container {
+        padding: 15px;
+        gap: 20px;
+        /* Increase gap to 20px for larger screens */
+    }
+
+    .contact-list {
+        padding: 12px;
+        /* Increase padding to 12px for larger screens */
+        gap: 5px;
+        /* Increase gap to 5px for larger screens */
+        height: 22%;
+        /* Increase height to 22% for larger screens */
+    }
+
+    .profile-pic-contacts {
+        height: 40px;
+        width: 40px;
+        /* Increase profile picture size for larger screens */
+        margin-right: 16px;
+        /* Increase margin-right to 16px for larger screens */
+    }
+
+    .contact-name {
+        font-size: 18px;
+        /* Increase font size to 18px for larger screens */
+    }
+
+    .contact-mensaje-text {
+        font-size: 16px;
+        /* Increase font size to 16px for larger screens */
+    }
+}
+
+/* Media query for 1024px */
+@media (min-width: 1024px) {
+    .contacts-container {
+        padding: 20px;
+        gap: 25px;
+        /* Increase gap to 25px for even larger screens */
+    }
+
+    .contact-list {
+        padding: 15px;
+        /* Increase padding to 15px for even larger screens */
+        gap: 8px;
+        /* Increase gap to 8px for even larger screens */
+        height: 25%;
+        /* Increase height to 25% for even larger screens */
+    }
+
+    .profile-pic-contacts {
+        height: 50px;
+        width: 50px;
+        /* Increase profile picture size for even larger screens */
+        margin-right: 20px;
+        /* Increase margin-right to 20px for even larger screens */
+    }
+
+    .contact-name {
+        font-size: 20px;
+        /* Increase font size to 20px for even larger screens */
+    }
+
+    .contact-mensaje-text {
+        font-size: 18px;
+        /* Increase font size to 18px for even larger screens */
+    }
+}
+
+/* Media query for 2000px */
+@media (min-width: 2000px) {
+    .contacts-container {
+        padding: 25px;
+        gap: 30px;
+        /* Increase gap to 30px for very large screens */
+    }
+
+    .contact-list {
+        padding: 20px;
+        /* Increase padding to 20px for very large screens */
+        gap: 12px;
+        /* Increase gap to 12px for very large screens */
+        height: 30%;
+        /* Increase height to 30% for very large screens */
+    }
+
+    .profile-pic-contacts {
+        height: 60px;
+        width: 60px;
+        /* Increase profile picture size for very large screens */
+        margin-right: 24px;
+        /* Increase margin-right to 24px for very large screens */
+    }
+
+    .contact-name {
+        font-size: 22px;
+    }
+}
